@@ -1,4 +1,5 @@
 import turtle
+
 s = turtle.getscreen()
 t = turtle.Turtle()
 
@@ -33,3 +34,15 @@ t.rt(90)
 t.fd(30)
 t.rt(180)
 t.fd(60)
+t.penup()
+t.goto(80, -100)
+t.pendown()
+t.fd(100)
+t.lt(90)
+t.fd(60)
+t.lt(90)
+t.fd(100)
+t.penup()
+t.goto(70, -45)
+t.pendown()
+t.dot(5)
