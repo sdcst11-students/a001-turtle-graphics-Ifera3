@@ -93,4 +93,3 @@ t.fd(35)
 t.end_fill()
 t.penup()
 t.home()
-h = 0
